@@ -1,6 +1,6 @@
 # RapidGo Release Notes
 
-**Version 1.5.9**
+**Version 1.05.09**
 
 ## Fixes & Improvements
 
