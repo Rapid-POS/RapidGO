@@ -1,6 +1,6 @@
 # RapidGo v1.05.08 Release Notes
 
-_Release Date: _
+_Release Date: July 29, 2025_
 
 ## Fixes & Improvements
 
