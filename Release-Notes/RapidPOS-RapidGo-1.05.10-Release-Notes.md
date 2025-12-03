@@ -14,7 +14,7 @@ Added a user-facing reminder message to notify when there are unposted inventory
 ---
 
 
-## Bug Fixes
+## Bug Fixes and Performance Enhancements
 
 ### EOCD Error When Changing Databases
 - Resolved an issue where users received an EOCD error when switching databases in settings.
