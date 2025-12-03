@@ -2,17 +2,9 @@
 
 _Release Date: July 29, 2025_
 
-## Fixes & Improvements
+## New Functionality
 
-- **Change Display Info**  
-  - Functionality has been restored.  
-  - Users can now add or remove additional item information as expected.  
-
-- **Line Busting Stability**  
-  - Resolved a crash that occurred during Line Busting.  
-  - A new prompt now notifies users if there is no default Walk-In Customer assigned.  
-
-## New Feature: Multiple Receivings from the Same PO Without Posting
+### Multiple Receivings from the Same PO Without Posting
 
 A new setting has been added: **Prevent Double Receiving**  
 
@@ -23,3 +15,15 @@ A new setting has been added: **Prevent Double Receiving**
 - **When unchecked:**  
   - Allows multiple receivers to be created from the same PO without posting any of them.  
   - This may lead to duplicate receiving events and cause **inventory count errors**.  
+
+---
+
+## Bug Fixes and Performance Enhancements
+
+- **Change Display Info**  
+  - Functionality has been restored.  
+  - Users can now add or remove additional item information as expected.  
+
+- **Line Busting Stability**  
+  - Resolved a crash that occurred during Line Busting.  
+  - A new prompt now notifies users if there is no default Walk-In Customer assigned.  
