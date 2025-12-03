@@ -2,7 +2,7 @@
 
 _Release Date: August 26, 2025_
 
-## Fixes & Improvements
+## Bug Fixes and Performance Enhancements
 
 - **Item Page – Min/Max/Bin Updates**  
   - Resolved issues with saving **Min/Max/Bin** values on the Item page.  
