@@ -1,4 +1,4 @@
-# RapidGo v1.05.10 Release Notes
+# RapidGo v1.06.27 Release Notes
 
 _Release Date: December 3, 2025_  
 
