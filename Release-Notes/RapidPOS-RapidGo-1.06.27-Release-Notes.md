@@ -16,9 +16,6 @@ Added a user-facing reminder message to notify when there are unposted inventory
 
 ## Bug Fixes and Performance Enhancements
 
-### EOCD Error When Changing Databases
-- Resolved an issue where users received an EOCD error when switching databases in settings.
-
 ### Receiving Screen – Price 1 Not Showing & Expected Qty Always Zero
 - Fixed a bug where **Price 1** failed to display on the receiving screen.  
 - Resolved an issue where **Expected Quantity** always showed as zero.
