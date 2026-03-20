@@ -1,7 +1,7 @@
 # RapidGo v1.08.02 Release Notes
 **Release Date:** March 24, 2026
 
-## New Functionality
+## RapidCount New Functionality
 
 ### Gridded Item Functionality Enhancements
 Several improvements have been made to gridded item workflows to enhance visibility, accuracy, and usability.
