@@ -10,7 +10,7 @@
 
 ## Bug Fixes and Performance Enhancements
 
-### Slow GetItems and Gridded Cells Cutoff
+### Slow "Get Items" and Gridded Cell Cutoff
 - Fixed an issue where gridded cells were cut off; users can now scroll to view all cells.
 - Resolved app freezing and crashing related to slow performance.
 
