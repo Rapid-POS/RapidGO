@@ -6,7 +6,7 @@
 
 ### Allocate Order Misc Charges
 - Added new setting **Allocate Misc Charges**, defaulted to unchecked.
-- When enabled, Misc Charges 1 cost will be equally distributed across all receiver lines.
+- When enabled, Misc Charges 1 revieving cost will be proportionatly allocated across all receiver lines.
 
 ## Bug Fixes and Performance Enhancements
 
