@@ -5,13 +5,33 @@
 ---
 
 ##  New Functionality
+### Freight Allocation for Partial Receipts (RapidGO → Counterpoint)
 
-### Allocate Order Misc Charges
-- When the settings below are enabled, Misc Charges 1 cost will be proportionatley distributed across all receiver lines.
-  - Use Misc Charge 1 = Checked
-  - Include in Cost = Checked
-  - Allocate By = Cost
-- Settings are sourced from **Purchasing Control**:
+RapidGO now distributes **Misc Amount 1 (e.g., freight)** proportionally across received line items when posting to Counterpoint.
+This provides more accurate cost allocation during partial receipts.
+
+* Allocation is based on the **cost of items received**
+* Ensures freight is applied only to the portion of goods actually received
+
+**Example:**
+
+* Purchase Request: 10 items totaling $1,000 + $100 freight
+* Each item receives **$10 freight allocation** (1/10th)
+* If only 5 items are received:
+
+  * Total freight applied = **$50**
+  * Distributed across the 5 received items
+
+### Required Settings
+
+When the settings below are enabled, **Misc Charge 1 cost will be proportionally distributed across all receiver lines**:
+
+* **Use Misc Charge 1** = Checked
+* **Include in Cost** = Checked
+* **Allocate By** = Cost
+
+*Settings are sourced from Purchasing Control.*
+
 ---
 
 ##  Bug Fixes and Performance Enhancements
