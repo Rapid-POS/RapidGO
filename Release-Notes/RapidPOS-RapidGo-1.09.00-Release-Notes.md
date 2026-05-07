@@ -1,5 +1,5 @@
 # RapidGO v1.9.0 Release Notes
-**Release Date:** May 4th, 2026
+**Release Date:** May 11th, 2026
 
 ## New Functionality
 
