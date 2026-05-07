@@ -31,6 +31,7 @@ Settings are sourced from Purchasing Control.
 See:  
 http://ncrcounterpointhelp.com/#3_back_office/purchasing/allocate_miscellaneous_charges.htm?Highlight=allocate%20misc
 
+<br>
 
 ### Transfer To / Transfer From Workgroup Selection
 In previous versions of RapidGO, users were unable to select their currently signed-in workgroup as a **Transfer To** location.
