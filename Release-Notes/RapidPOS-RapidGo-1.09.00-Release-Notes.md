@@ -129,8 +129,6 @@ The receiver line will then reflect the updated quantity using the newly linked 
 > Navigate to:  
 > **Settings → Refresh Database**
 
-![Refresh Database](image)
-
 ---
 
 ## Bug Fixes and Performance Enhancements
