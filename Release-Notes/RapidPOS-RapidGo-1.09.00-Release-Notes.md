@@ -66,8 +66,59 @@ These updates are now synchronized as part of the receiving workflow.
 
 ### Linking Barcodes
 RapidGO now supports linking new barcodes directly to item units within the application.
-
 This enhancement improves efficiency when onboarding new inventory and managing alternate unit barcodes.
+## Linking New Barcodes in RapidGO
+
+RapidGO now allows users to link new barcodes directly to items and units during the receiving process.
+
+### Linking a Barcode
+
+When scanning a barcode that does not currently exist, RapidGO will prompt the user to link the barcode to an item.
+
+![Scan Non-Existing Barcode](image)
+
+After confirming, the barcode linking screen will open.
+
+![Barcode Linking Screen](image)
+
+Users can:
+- Select an item from the receiver line list
+- Or manually enter an item number
+
+If the entered item exists on the receiver, the associated unit information will automatically load.
+
+![Selecting an Item](image)
+
+If the item is not found on the receiver line, no unit information will be available.
+
+![Item Not Found on Receiver](image)
+
+Once a valid item is selected, users can choose the appropriate unit to associate with the barcode.
+
+![Selecting Unit](image)
+
+Press **Link Barcode** to save the barcode association.
+
+![Link Barcode Button](image)
+
+After linking the barcode, RapidGO will automatically apply the scanned quantity to the selected item and unit.
+
+![Quantity Automatically Applied](image)
+
+The receiver line will then reflect the updated quantity using the newly linked barcode and unit.
+
+![Updated Receiver Quantity](image)
+
+### Additional Notes
+
+- Sliding downward on the barcode linking screen will cancel the form without saving changes.
+- Newly linked barcodes become available in both CounterPoint and RapidGO.
+
+> **NOTE:** Other RapidGO devices must refresh their database to download newly linked barcodes.  
+> Navigate to:  
+> **Settings → Refresh Database**
+
+![Refresh Database](image)
 
 ---
 
