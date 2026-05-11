@@ -1,5 +1,5 @@
 # RapidGO v1.9.0 Release Notes
-**Release Date:** May 11th, 2026
+**Release Date:** May 12th, 2026
 
 ## New Functionality
 
@@ -38,9 +38,41 @@ In previous versions of RapidGO, users were unable to select their currently sig
 
 With this version of RapidGO, users can now select any location in either the **Transfer To** or **Transfer From** locations.
 
+<br>
+
+### Changing Receiving Header Information
+RapidGO now allows users to edit receiver header information directly within the application.
+
+Users can now modify:
+- Reference numbers
+- Receiver comments
+- Additional header-level information associated with the receiver
+
+This enhancement provides greater flexibility when updating receiving information without needing to return to CounterPoint.
+
+<br>
+
+### Modifying Receiving Line Comments
+Users can now edit receiver line comments directly in RapidGO.
+
+This allows warehouse and receiving staff to:
+- Update line-specific notes during the receiving process
+- Correct or add additional receiving details
+- Maintain more accurate documentation on individual receiver lines
+
+These updates are now synchronized as part of the receiving workflow.
+
+<br>
+
+### Linking Barcodes
+RapidGO now supports linking new barcodes directly to item units within the application.
+
+This enhancement improves efficiency when onboarding new inventory and managing alternate unit barcodes.
+
 ---
 
 ## Bug Fixes and Performance Enhancements
+
 
 ### Slow "Get Items" and Gridded Cell Cutoff
 - Fixed an issue where gridded cells were cut off; users can now scroll to view all cells.
