@@ -1,12 +1,12 @@
-# RapidGo v1.09.01 Release Notes
+# RapidGO v1.09.01 Release Notes
 
 **Release Date:** May 14th, 2026
 
 ## Bug Fixes and Performance Enhancements
 
-## RapidGo Sign-In Issue Fixed
+## RapidGO Sign-In Issue Fixed
 
-We fixed an issue that could prevent some users from signing in when opening RapidGo.
+We fixed an issue that could prevent some users from signing in when opening RapidGO.
 
 ---
 
