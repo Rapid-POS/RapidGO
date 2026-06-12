@@ -1,5 +1,6 @@
 # RapidGO v1.09.02 Release Notes
-**Release Date:** TBD
+**Release Date:** June 17th 2026
+
 _Bug fixes and validation improvements for Receiving and Linebusting, including item entry performance, description handling, and display field corrections._
 
 ## New Features & Improvements
