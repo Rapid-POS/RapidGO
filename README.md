@@ -1,4 +1,6 @@
 # RapidGO
+Updated June 17th 2026
+
 RapidGO is a mobile inventory and retail operations application developed by Rapid POS, installed on a Zebra Android handheld device. It connects to CounterPoint to support a range of store tasks — from item lookup and inventory adjustments to receiving and line busting — directly from the sales floor or warehouse.
 
 > **Note:** RapidGO cannot be used to complete transactions or process payments.
