@@ -117,30 +117,29 @@ See the Zebra OneCare Essentials Fact Sheet for full service plan details.
 **Important subscription notes:**
 
 - If replication must be deployed, the setup and configuration fee applies per store.
-- The subscription is **month-to-month** and can be cancelled with 30 days written notice.
+- The RapidGO subscription is **month-to-month** and can be cancelled with 30 days written notice.
 - Restarting a subscription after cancellation will require an additional configuration fee.
 - Additional support services are available on a pay-as-you-go basis at the standard hourly rate, billed in quarter-hour increments.
+- Physical Count support services are always billed at T&M 
 
 ---
 
 ## Section 4: Item Lookup
 
-RapidGO allows staff to look up items directly from the device without returning to a fixed terminal. Item Lookup supports stock checks and price verification and can be performed by scanning a barcode or entering an item number manually.
+RapidGO allows staff to look up items directly from the device without returning to a fixed terminal. Item Lookup has view into your Counterpoint Item's Qty on Hand, last/average/historical costs, prices and vendor informatio.
 
 ---
 
 ## Section 5: Inventory Adjustments
 
-Inventory Adjustments in RapidGO allow staff to make quantity changes to on-hand inventory directly from the device. Adjustments are submitted to CounterPoint in real time.
+Inventory Adjustments in RapidGO allow staff to make quantity changes to on-hand inventory directly from the device. Adjustments are submitted to CounterPoint in real time. Note: RapidGO does not post anything so posting of adjustments will need to be completed in standard Counterpoint.
 
 ---
-
 ## Section 6: Transfer Out
 
-The Transfer Out function allows staff to initiate inventory transfers between locations from the device. Transfer records are created in CounterPoint and follow standard transfer processing rules.
+The Tranfer Out function allows stff to initiate inventory transfers between locations from the device. Transfer records are sent to Counterpoint where the transfer posting must be finalized.
 
 ---
-
 ## Section 7: Tags / Labels
 
 RapidGO allows staff to create a list of labels to be printed from CounterPoint. Labels are queued from the device and printed through the standard CounterPoint label printing process.
@@ -157,7 +156,7 @@ Line Busting allows staff to assist customers in line by looking up items and bu
 
 ## Section 9: Cycle Counts
 
-RapidGO supports physical inventory cycle counts by location or department. Count data is entered on the device and submitted to CounterPoint for processing.
+RapidGO supports physical inventory cycle counts by location or department. Cycle Counts sent to Counterpoint need to be reviewed and posted in Counterpoint.
 
 ---
 
@@ -180,7 +179,7 @@ Refer to the Pick Verify course in CounterPoint University for step-by-step inst
 
 ## Section 12: Settings
 
-RapidGO includes a Settings section that controls device-level and application-level configuration options. Settings should be reviewed during initial setup and adjusted as needed in consultation with your Rapid POS representative.
+RapidGO Settings allow you to change functionality of various RapidGO features. Settings should be reviewed during initial setup and adjusted as needed in consultation with your Rapid POS representative.
 
 ---
 
