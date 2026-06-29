@@ -2,29 +2,28 @@
 
 **Release Date:** July 1, 2026
 
-_Adds Label Code editing to the Receiving line editor, and fixes silent search failures in Previously Saved Receiving and vendor lookup._
+_Bug fixes resolving vendor search failures, previously saved receiving lookup, and item description display in receiver lines._
 
 ---
 
 ## New Features & Improvements
 
-### Edit Item Label Code in Receiving
+### Label Code Visible on Item Records
 
-You can now change an item's Label Code directly from the device without going to Counterpoint.
-
-* **Where:** Receiving → scan the item → swipe left on the line to open the line edit window.
-* A Label Code dropdown defaults to the item's current code; select a new code from the available options, tap **Submit**, then tap **OK**.
-* The change is applied to the item and a sync is triggered; the updated Label Code is reflected in both RapidGO and Counterpoint immediately.
-* New label codes cannot be created in RapidGO — they must be added in Counterpoint first.
+The label code field is now visible when viewing item details from a receiving or purchase request, making it easier to verify and reference label assignments without leaving the app.
 
 ---
 
 ## Bug Fixes
 
-### Previously Saved Receiving — Search Returns No Results
+### Vendor Search Returning No Results
 
-Typing in the Previously Saved Receiving search field found nothing, cleared the list, and left no selectable items until the Receiving module was closed and reopened. Search now returns matching receivers as expected.
+Searching for a vendor by name when creating a receiver or purchase request was returning no results even when matching vendors existed in CounterPoint. Vendor lookup now correctly returns matching results when searching by name.
 
-### Vendor Lookup — Missing Results and Rendering Issues
+### Previously Saved Receiving Search Not Working
 
-Vendor searches were case-sensitive, so searching by name (e.g. `PANACEA`) returned no results if casing didn't match exactly. The lookup list also failed to render correctly — hiding the first result or dropping single-item results entirely. Vendor search is now case-insensitive, the list rebuilds reliably on every search, and all results are selectable.
+The search function on the Previously Saved Receiving screen was not returning results, preventing users from locating in-progress receivers. Search on the Previously Saved Receiving screen now returns results as expected.
+
+### Item Description Not Shown on Receiver Lines
+
+The item description was not being displayed on receiver lines created in RapidGO, leaving the description column blank in CounterPoint after posting. RapidGO now correctly writes the item description when creating receiver lines, consistent with CounterPoint's native behavior.
