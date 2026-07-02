@@ -1,20 +1,16 @@
-# RapidGO v1.10.00 Release Notes
+# RapidGO v1.09.03 Release Notes
 
 **Release Date:** July 6th, 2026
 
-_Bug fixes resolving vendor search failures, previously saved receiving lookup, and item description display in receiver lines._
-
----
-
-## New Features & Improvements
-
-### Label Code Visible on Item Records
-
-The label code field is now visible when viewing item details from a receiving or purchase request, making it easier to verify and reference label assignments without leaving the app.
+_Bug fixes resolving vendor search failures, previously saved receiving lookup, item description display in receiver lines, and label code visibility on item records._
 
 ---
 
 ## Bug Fixes
+
+### Label Code Visible on Item Records
+
+The label code field is now visible when viewing item details from a receiving or purchase request, making it easier to verify and reference label assignments without leaving the app.
 
 ### Vendor Search Returning No Results
 
