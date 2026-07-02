@@ -1,6 +1,6 @@
 # RapidGO v1.10.00 Release Notes
 
-**Release Date:** July 1, 2026
+**Release Date:** July 6th, 2026
 
 _Bug fixes resolving vendor search failures, previously saved receiving lookup, and item description display in receiver lines._
 
