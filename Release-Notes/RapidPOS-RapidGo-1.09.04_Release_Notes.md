@@ -3,7 +3,7 @@
 
 _Inventory adjustment quantity-entry fixes and a safeguard against duplicate-looking receivings._
 
-## New Features & Improvements
+## Features Improvements
 
 ### Clearer On-Hand Adjustment Label
 The "Reset On-Hand" action in Item Adjustment is now labeled "Set On-Hand Qty" to better describe what it does.
