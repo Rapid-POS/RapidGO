@@ -13,7 +13,7 @@ The "Reset On-Hand" action in Item Adjustment is now labeled "Set On-Hand Qty" t
 ### Receiving Number Protection
 The Receiving # and Vendor # fields are now locked and can no longer be edited by hand after opening a previously saved receiving or a vendor-based receiving.
 
-* This closes off the only known way a receiving could be sent in a way that looked like a duplicate.
+* This closes off the only known way a receiving could be sent in a way that looks like a duplicate.
 
 ### Inventory Adjustment Quantity Entry
 Entering 0 as an adjustment quantity now holds correctly instead of clearing back to blank, so Reset On-Hand adjustments post the correct on-hand quantity.
