@@ -1,4 +1,4 @@
-# RapidGO 1.09.04 Release Notes
+# RapidGO 1.09.05 Release Notes
 **Release Date:** July 22, 2026
 
 _Inventory adjustment quantity-entry fixes and a safeguard against duplicate-looking receivings._
