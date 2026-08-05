@@ -1,10 +1,7 @@
-# RapidGO V1.09.06 Release Notes - Coming Soon
+# RapidGO V1.09.06 Release Notes
 **Release Date:** August 10, 2026
 
 Bug fix release addressing an incorrect zero-price display during Line Busting when a price rule references a field unavailable on the device.
-
-## New Features & Improvements
-_None in this release._
 
 ## Bug Fixes
 
