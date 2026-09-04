@@ -1,4 +1,4 @@
-# RapidGO v1.09.07 Release Notes - Coming Soon
+# RapidGO v1.09.07 Release Notes
 **Release Date:** September 7, 2026
 
 _Fixes a duplicate-receiver bug on retried receiving submissions, Receiving incorrectly blocking stocked items, a Transfer Out data issue, and an app freeze on certain warning messages._
