@@ -18,7 +18,7 @@ RapidGO runs on a Zebra Android device and communicates with CounterPoint over a
 
 ## Minimum System Requirements:
 - Minimum Counterpoint version: **8.5.6.2**  
-- Minimum SQL Server version: **2017**  
+- Minimum SQL Server version: **2016**  
 - Minimum Supported Operating System version: **Windows Server 2016** or **Windows 11 Pro** 
 - Minimum PowerShell version: **5.1**
 
