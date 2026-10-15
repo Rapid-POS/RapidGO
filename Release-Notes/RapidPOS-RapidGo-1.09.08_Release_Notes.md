@@ -2,7 +2,7 @@
 
 **Release Date:** 10/15/2026
 
-Cycle Count can now show item details like price and quantity on hand on each scanned line, plus fixes for Receiving and Android 15 devices.
+Cycle Count can now show item details like price and quantity on hand on each scanned line, and the Rapid CP API used to Connect RapidGO with Counterpoint now uses its own dedicated SQL Login. This release also includes fixes for Receiving and Android 15 devices.
 
 ## Feature Improvements
 
@@ -14,16 +14,16 @@ You can now show an item's price and total quantity on hand on each scanned line
 - Lines already on the list update as soon as you change your selection, and RapidGO remembers your choice the next time you open Cycle Count.
 - **Total QoH** is the quantity on hand across all locations. We also added it to the Item Lookup and Receiving field pickers, where it only appears if you select it.
 
-### Dedicated SQL Login for the Connector
+### Dedicated SQL Login for the Rapid CP API
 
-The connector now connects to the Counterpoint database with its own dedicated SQL Login, instead of sharing the main SQL Login used by Counterpoint. Because the connector's database activity can now be identified separately from Counterpoint's, Rapid can limit how much of the SQL Server's CPU the connector uses, so that connector activity does not slow down Counterpoint for store users.
+The Rapid CP API, which RapidGO uses to work with Counterpoint, now connects to the Counterpoint database with its own dedicated SQL Login instead of sharing the main SQL Login used by Counterpoint. Because the API's database activity can now be identified separately from Counterpoint's, Rapid can limit how much of the SQL Server's CPU the API uses, so that RapidGO activity does not slow down Counterpoint for store users.
 
-- The SQL Login is created automatically during the connector upgrade.
-- The new login receives the same server and database permissions as the existing Counterpoint SQL Login, so the connector continues to work the same way as before.
-- A unique, strong password is generated for the login and is stored only in encrypted form in the connector's configuration. A new password is generated each time the connector is upgraded.
+- The SQL Login is created automatically during the Rapid CP API upgrade.
+- The new login receives the same server and database permissions as the existing Counterpoint SQL Login, so the Rapid CP API continues to work the same way as before.
+- A unique, strong password is generated for the login and is stored only in encrypted form in the Rapid CP API's configuration. A new password is generated each time the Rapid CP API is upgraded.
 
 > [!IMPORTANT]
-> Do not change the password for this SQL Login or remove the login. The connector depends on it, and its password is managed automatically by the upgrade process.
+> Do not change the password for this SQL Login or remove the login. The Rapid CP API depends on it, and its password is managed automatically by the upgrade process.
 
 ## Bug Fixes
 
