@@ -1,8 +1,8 @@
-# RapidGO v1.09.08 Release Notes 
+# RapidGO v1.09.08 Release
 
 **Release Date:** 10/15/2026
 
-_Cycle Count can now show item details like price and quantity on hand on each scanned line, plus fixes for Receiving and Android 15 devices._
+Cycle Count can now show item details like price and quantity on hand on each scanned line, plus fixes for Receiving and Android 15 devices.
 
 ## Feature Improvements
 
@@ -29,8 +29,8 @@ The connector now connects to the Counterpoint database with its own dedicated S
 
 ### Pop-Up Screens Now Open on Android 15 Devices
 
-On Android 15 devices, the Prompt for Quantity, Min/Max/Bin and Receiving pop-ups showed an error instead of opening. They open normally now.
+On Android 15 devices, the **Prompt for Quantity**, **Min/Max/Bin** and **Receiving** pop-ups showed an error instead of opening. They open normally now.
 
 ### Quantity Expected Now Shows on Previously Saved Receivings
 
-When you reopened a receiver from Previously Saved Receiving, the Quantity Expected column was missing. It now shows, just like it does when you receive against a purchase order.
+When you reopened a receiver from **Previously Saved Receiving**, the **Quantity Expected** column was missing. It now shows, just like it does when you receive against a purchase order.
