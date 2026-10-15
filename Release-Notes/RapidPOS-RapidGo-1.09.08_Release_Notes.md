@@ -1,6 +1,6 @@
-# RapidGO v1.09.08 Release Notes - Coming Soon
+# RapidGO v1.09.08 Release Notes 
 
-**Release Date:** TBD
+**Release Date:** 10/15/2026
 
 _Cycle Count can now show item details like price and quantity on hand on each scanned line, plus fixes for Receiving and Android 15 devices._
 
