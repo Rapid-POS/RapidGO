@@ -1,6 +1,6 @@
-# RapidGO v1.10.00 Release Notes - COMING SOON
+# RapidGO v1.10.00 Release Notes
 
-**Release Date:** {{DATE}}
+**Release Date:** 11/16/2026
 
 _This release adds a faster way to update bins from Item Lookup, makes sure documents sent from Line Busting and Item List always reach Counterpoint, and shows progress while data syncs after login._
 
